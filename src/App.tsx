@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageGallery from './components/ImageGallery.tsx';
+import ImageGallery from './components/ImageGallery';
 
 function App() {
   return (

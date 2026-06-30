@@ -1,5 +1,5 @@
 import React from 'react';
-import { ImageData } from '../types/index.ts';
+import { ImageData } from '../types';
 import './GalleryGrid.css';
 
 interface GalleryGridProps {

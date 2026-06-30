@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import useGalleryImages from '../hooks/useGalleryImages.ts';
-import GalleryGrid from './GalleryGrid.tsx';
-import Modal from './Modal.tsx';
+import useGalleryImages from '../hooks/useGalleryImages';
+import GalleryGrid from './GalleryGrid';
+import Modal from './Modal';
 
 const API_URL = '/api/images'; // Not a real endpoint; see useGalleryImages for mock
 

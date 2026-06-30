@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { ImageData } from '../types/index.ts';
+import { ImageData } from '../types';
 
 // Simulated remote data for demonstration purposes
 const MOCK_IMAGES: ImageData[] = [
@@ -18,8 +18,8 @@ const MOCK_IMAGES: ImageData[] = [
   {
     id: '3',
     title: 'City Night',
-    url: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=900',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=200'
+    url: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1000',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=300'
   },
   {
     id: '4',
